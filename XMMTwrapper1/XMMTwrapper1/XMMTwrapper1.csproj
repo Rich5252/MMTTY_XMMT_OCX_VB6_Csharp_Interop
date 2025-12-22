@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>AnyCPU;x86</Platforms>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Helpers.cs" />
+    <Compile Remove="LoggerV1.cs" />
+    <Compile Remove="LoggerV2.cs" />
+    <Compile Remove="OCXobject.cs" />
+    <Compile Remove="SpectrumInvoker.cs" />
+    <Compile Remove="XMMCOMconPointHost OLD.cs" />
+    <Compile Remove="XMMCOMconPointHostV2.cs" />
+    <Compile Remove="XMMCOMconPointHostV3.cs" />
+    <Compile Remove="XMMComDispatch.cs" />
+    <Compile Remove="XMMIDispatch.cs" />
+    <Compile Remove="XMMNativeDLL.cs" />
+    <Compile Remove="XmmrEventsSink old.cs" />
+    <Compile Remove="XmmrEventsSinkV2.cs" />
+    <Compile Remove="XmmrEventsSinkV3.cs" />
+    <Compile Remove="XmmrEventsSinkV4.cs" />
+    <Compile Remove="XmmrEventsSinkV5SyncEventGoodWithArgAnalyser - Copy.cs" />
+    <Compile Remove="XMMSpecDrawViaDispatch.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="file1.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <COMReference Include="XMMTLib">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>9fae7eb9-098b-4952-a234-cf460419d752</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxXMMTLib">
+      <WrapperTool>aximp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>9fae7eb9-098b-4952-a234-cf460419d752</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

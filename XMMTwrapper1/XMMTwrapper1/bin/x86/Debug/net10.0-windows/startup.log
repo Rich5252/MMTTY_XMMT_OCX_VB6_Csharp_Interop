@@ -1,0 +1,1709 @@
+11:14:23.810 [T2] Form1 before init
+11:14:24.922 [T2] Form1 after init
+11:14:25.045 [T2] Form1_Shown entered
+11:14:25.086 [Form1_Shown] T2 Apt=STA IsThreadPool=False
+11:14:25.087 [T2] [Sink] DxmmrEventsSink constructed T2
+[Advise entry] T2 Apt=STA IsThreadPool=False
+11:14:25.121 [T2] [Hook] Advising IID=527a76c5-3c2d-4d68-99ec-b4d2f53cae74 sink=DxmmrEventsSink
+11:14:25.123 [T2] [Hook] Advise OK cookie=143130484
+11:14:25.123 [StartMmttyEngine()] T2 Apt=STA IsThreadPool=False HandleCreated=True InvokeRequired=False
+11:14:25.313 [[Sink] Invoke dispid=4 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:25.357 [MMTTY engine invoke instruction sent] T2 Apt=STA IsThreadPool=False HandleCreated=True InvokeRequired=False
+11:14:25.363 [T2] [Spec] System.Void Draw(System.Int16& pFFT, System.Int16 size, System.Int16 sampfreq)
+11:14:25.363 [T2] [Spec] System.Void DrawToBitmap(System.Drawing.Bitmap bitmap, System.Drawing.Rectangle targetBounds)
+11:14:25.363 [T2] [Spec] System.Void DrawToBitmap(System.Drawing.Bitmap bitmap, System.Drawing.Rectangle targetBounds)
+11:14:25.804 [[Sink] Invoke dispid=17 cArgs=2] T2 Apt=STA IsThreadPool=False
+11:14:25.851 [[Sink] Invoke dispid=10 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:25.885 [[Sink] Invoke dispid=9 cArgs=2] T2 Apt=STA IsThreadPool=False
+11:14:25.886 [[Sink] Invoke dispid=6 cArgs=2] T2 Apt=STA IsThreadPool=False
+11:14:25.886 [[Sink] Invoke dispid=17 cArgs=2] T2 Apt=STA IsThreadPool=False
+11:14:25.887 [[Sink] Invoke dispid=8 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:25.888 [[Sink] Invoke dispid=7 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:25.888 [[Sink] Invoke dispid=17 cArgs=2] T2 Apt=STA IsThreadPool=False
+11:14:25.888 [[Sink] Invoke dispid=17 cArgs=2] T2 Apt=STA IsThreadPool=False
+11:14:25.888 [[Sink] Invoke dispid=17 cArgs=2] T2 Apt=STA IsThreadPool=False
+11:14:25.889 [T2] MMTTY engine started and in event axXMMR1_OnConnected_1
+11:14:26.215 [T2] [UI] Engine connected — enabling FFT
+11:14:26.216 [[Sink] Invoke dispid=1 cArgs=0] T2 Apt=STA IsThreadPool=False
+11:14:26.244 [[Sink] Invoke dispid=17 cArgs=2] T2 Apt=STA IsThreadPool=False
+11:14:26.306 [[Sink] Invoke dispid=10 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:26.306 [[Sink] Invoke dispid=9 cArgs=2] T2 Apt=STA IsThreadPool=False
+11:14:26.306 [[Sink] Invoke dispid=6 cArgs=2] T2 Apt=STA IsThreadPool=False
+11:14:26.306 [[Sink] Invoke dispid=17 cArgs=2] T2 Apt=STA IsThreadPool=False
+11:14:26.306 [[Sink] Invoke dispid=8 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:26.306 [[Sink] Invoke dispid=7 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:26.306 [[Sink] Invoke dispid=17 cArgs=2] T2 Apt=STA IsThreadPool=False
+11:14:26.306 [[Sink] Invoke dispid=17 cArgs=2] T2 Apt=STA IsThreadPool=False
+11:14:26.307 [[Sink] Invoke dispid=3 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:26.667 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:26.696 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:26.696 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:26.759 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:26.805 [T2] [FFT11] sampHz=11025 n=2048
+11:14:26.848 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:14:26.849 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:26.893 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:26.924 [[Sink] Invoke dispid=15 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:26.924 [[Sink] Invoke dispid=15 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:26.924 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:26.924 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:26.924 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:26.924 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:26.924 [T2] [FFT11] sampHz=11025 n=2048
+11:14:26.924 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:26.924 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:26.924 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:27.043 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:27.044 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:27.073 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:27.074 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:27.074 [T2] [FFT11] sampHz=11025 n=2048
+11:14:27.074 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -28
+11:14:27.119 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:27.119 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:27.268 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:27.298 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:27.298 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:27.298 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:27.298 [T2] [FFT11] sampHz=11025 n=2048
+11:14:27.299 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:27.299 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:27.299 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:27.628 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:27.628 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:27.628 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:27.628 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:27.628 [T2] [FFT11] sampHz=11025 n=2048
+11:14:27.628 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:27.628 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:27.628 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:27.823 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:27.824 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:27.824 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:27.853 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:27.853 [T2] [FFT11] sampHz=11025 n=2048
+11:14:27.853 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:27.853 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:27.853 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:27.990 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:28.002 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:28.002 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:28.002 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:28.002 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:28.002 [T2] [FFT11] sampHz=11025 n=2048
+11:14:28.002 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -27
+11:14:28.002 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:28.002 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:28.002 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:28.259 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:28.288 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:28.289 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:28.289 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:28.289 [T2] [FFT11] sampHz=11025 n=2048
+11:14:28.289 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:28.289 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:28.318 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:28.318 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:28.577 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:28.606 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:28.606 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:28.607 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:28.607 [T2] [FFT11] sampHz=11025 n=2048
+11:14:28.607 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:28.607 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:28.607 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:28.636 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:28.667 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:28.894 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:28.924 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:28.925 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:28.925 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:28.925 [T2] [FFT11] sampHz=11025 n=2048
+11:14:28.925 [T2] [FFT11] preview shorts: 30, -17, -31, -31, -31, -30, -31, -31, -31, -31, -31, -31, -31, -31, -30, -27
+11:14:28.925 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:28.925 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:28.954 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:29.066 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:29.066 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:29.066 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:29.066 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:29.066 [T2] [FFT11] sampHz=11025 n=2048
+11:14:29.066 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:29.066 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:29.066 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:29.066 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:29.256 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:29.286 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:29.286 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:29.286 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:29.286 [T2] [FFT11] sampHz=11025 n=2048
+11:14:29.287 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:29.287 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:29.287 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:29.316 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:29.694 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:29.722 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:29.722 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:29.723 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:29.723 [T2] [FFT11] sampHz=11025 n=2048
+11:14:29.723 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -27
+11:14:29.723 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:29.723 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:29.753 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:29.919 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:29.948 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:29.948 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:29.949 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:29.949 [T2] [FFT11] sampHz=11025 n=2048
+11:14:29.949 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -24
+11:14:29.949 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:29.949 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:30.008 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:30.054 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:30.086 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:30.086 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:30.129 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:30.129 [T2] [FFT11] sampHz=11025 n=2048
+11:14:30.129 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:14:30.129 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:30.129 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:30.130 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:30.309 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:30.310 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:30.310 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:30.310 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:30.310 [T2] [FFT11] sampHz=11025 n=2048
+11:14:30.339 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -25
+11:14:30.339 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:30.339 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:30.340 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:30.444 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:30.473 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:30.473 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:30.473 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:30.474 [T2] [FFT11] sampHz=11025 n=2048
+11:14:30.474 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:30.474 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:30.474 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:30.503 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:30.733 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:30.785 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:30.785 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:30.785 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:30.785 [T2] [FFT11] sampHz=11025 n=2048
+11:14:30.786 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -30, -31, -30, -29, -28, -30, -31, -30, -25
+11:14:30.786 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:30.786 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:30.821 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:30.896 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:30.925 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:30.925 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:30.925 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:30.925 [T2] [FFT11] sampHz=11025 n=2048
+11:14:30.925 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:30.925 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:30.926 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:30.956 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:31.135 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:31.135 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:31.135 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:31.135 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:31.135 [T2] [FFT11] sampHz=11025 n=2048
+11:14:31.135 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:31.135 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:31.135 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:31.136 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:31.466 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:31.470 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:31.470 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:31.511 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:31.511 [T2] [FFT11] sampHz=11025 n=2048
+11:14:31.511 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:31.512 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:31.512 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:31.512 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:31.541 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:31.932 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:31.962 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:31.963 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:31.963 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:31.963 [T2] [FFT11] sampHz=11025 n=2048
+11:14:31.993 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:31.993 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:31.993 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:31.994 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:32.113 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:32.114 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:32.114 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:32.114 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:32.114 [T2] [FFT11] sampHz=11025 n=2048
+11:14:32.143 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:32.143 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:32.143 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:32.145 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:32.311 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:32.341 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:32.341 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:32.341 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:32.341 [T2] [FFT11] sampHz=11025 n=2048
+11:14:32.341 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:32.341 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:32.341 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:32.342 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:32.988 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:32.988 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:32.989 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:32.989 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:32.989 [T2] [FFT11] sampHz=11025 n=2048
+11:14:32.989 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:33.019 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:33.019 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:33.019 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:33.095 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:33.095 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:33.095 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:33.095 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:33.095 [T2] [FFT11] sampHz=11025 n=2048
+11:14:33.096 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:33.096 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:33.096 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:33.096 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:33.290 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:33.320 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:33.320 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:33.320 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:33.320 [T2] [FFT11] sampHz=11025 n=2048
+11:14:33.320 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:33.320 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:33.320 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:33.321 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:33.529 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:33.531 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:33.531 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:33.531 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:33.531 [T2] [FFT11] sampHz=11025 n=2048
+11:14:33.531 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:33.531 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:33.531 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:33.559 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:33.889 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:33.889 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:33.890 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:33.890 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:33.890 [T2] [FFT11] sampHz=11025 n=2048
+11:14:33.890 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:33.918 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:33.918 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:33.920 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:33.950 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:34.145 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:34.145 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:34.146 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:34.146 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:34.146 [T2] [FFT11] sampHz=11025 n=2048
+11:14:34.175 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:34.175 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:34.175 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:34.177 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:34.385 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:34.385 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:34.385 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:34.385 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:34.385 [T2] [FFT11] sampHz=11025 n=2048
+11:14:34.385 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -28
+11:14:34.385 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:34.385 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:34.414 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:34.537 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:34.565 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:34.566 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:34.566 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:34.566 [T2] [FFT11] sampHz=11025 n=2048
+11:14:34.611 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:34.611 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:34.611 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:34.612 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:34.793 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:34.836 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:34.836 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:34.836 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:34.836 [T2] [FFT11] sampHz=11025 n=2048
+11:14:34.837 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30, -31
+11:14:34.837 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:34.837 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:34.865 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:34.972 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:34.972 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:34.972 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:34.972 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:34.972 [T2] [FFT11] sampHz=11025 n=2048
+11:14:34.972 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:34.972 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:34.972 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:34.972 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:35.472 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:35.472 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:35.472 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:35.472 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:35.472 [T2] [FFT11] sampHz=11025 n=2048
+11:14:35.477 [T2] [FFT11] preview shorts: 30, -17, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:14:35.478 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:35.478 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:35.478 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:35.518 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:35.518 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:35.518 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:35.518 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:35.518 [T2] [FFT11] sampHz=11025 n=2048
+11:14:35.518 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:35.518 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:35.518 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:35.518 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:35.764 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:35.766 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:35.794 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:35.794 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:35.794 [T2] [FFT11] sampHz=11025 n=2048
+11:14:35.794 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:35.794 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:35.794 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:35.795 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:35.991 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:35.992 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:36.021 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:36.021 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:36.021 [T2] [FFT11] sampHz=11025 n=2048
+11:14:36.021 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:36.021 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:36.021 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:36.022 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:36.145 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:36.187 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:36.187 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:36.216 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:36.216 [T2] [FFT11] sampHz=11025 n=2048
+11:14:36.216 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -28
+11:14:36.217 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:36.217 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:36.217 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:36.413 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:36.413 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:36.413 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:36.413 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:36.413 [T2] [FFT11] sampHz=11025 n=2048
+11:14:36.413 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:14:36.413 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:36.413 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:36.413 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:36.985 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:36.985 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:36.986 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:36.986 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:36.986 [T2] [FFT11] sampHz=11025 n=2048
+11:14:36.986 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -26
+11:14:36.986 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:36.986 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:36.986 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:37.382 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:37.382 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:37.382 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:37.382 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:37.382 [T2] [FFT11] sampHz=11025 n=2048
+11:14:37.382 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:37.382 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:37.382 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:37.382 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:37.594 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:37.623 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:37.624 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:37.624 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:37.624 [T2] [FFT11] sampHz=11025 n=2048
+11:14:37.654 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:14:37.656 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:37.656 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:37.698 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:37.792 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:37.819 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:37.820 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:37.848 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:37.848 [T2] [FFT11] sampHz=11025 n=2048
+11:14:37.848 [T2] [FFT11] preview shorts: 30, -17, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:37.848 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:37.848 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:37.849 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:38.121 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:38.121 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:38.149 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:38.149 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:38.149 [T2] [FFT11] sampHz=11025 n=2048
+11:14:38.149 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -28
+11:14:38.149 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:38.149 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:38.150 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:38.209 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:38.212 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:38.254 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:38.255 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:38.255 [T2] [FFT11] sampHz=11025 n=2048
+11:14:38.255 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30, -31
+11:14:38.255 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:38.255 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:38.440 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:38.440 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:38.478 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:38.478 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:38.478 [T2] [FFT11] sampHz=11025 n=2048
+11:14:38.479 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:38.479 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:38.479 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:38.479 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:38.597 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:38.598 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:38.598 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:38.598 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:38.598 [T2] [FFT11] sampHz=11025 n=2048
+11:14:38.628 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -28
+11:14:38.628 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:38.628 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:38.628 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:38.796 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:38.796 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:38.796 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:38.796 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:38.796 [T2] [FFT11] sampHz=11025 n=2048
+11:14:38.797 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -25
+11:14:38.797 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:38.797 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:38.826 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:39.021 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:39.022 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:39.022 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:39.022 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:39.022 [T2] [FFT11] sampHz=11025 n=2048
+11:14:39.022 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:14:39.022 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:39.022 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:39.053 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:39.231 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:39.231 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:39.231 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:39.261 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:39.261 [T2] [FFT11] sampHz=11025 n=2048
+11:14:39.261 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:39.261 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:39.261 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:39.263 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:40.049 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:40.050 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:40.080 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:40.080 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:40.080 [T2] [FFT11] sampHz=11025 n=2048
+11:14:40.080 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -26
+11:14:40.080 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:40.080 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:40.109 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:40.992 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:40.992 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:40.992 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:40.992 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:40.992 [T2] [FFT11] sampHz=11025 n=2048
+11:14:40.992 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:40.992 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:40.992 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:40.992 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:40.993 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:40.993 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:40.993 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:40.993 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:40.993 [T2] [FFT11] sampHz=11025 n=2048
+11:14:40.993 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:14:40.993 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:40.993 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:40.993 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:41.239 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:41.241 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:41.241 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:41.270 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:41.270 [T2] [FFT11] sampHz=11025 n=2048
+11:14:41.270 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:41.271 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:41.271 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:41.273 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:41.405 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:41.405 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:41.405 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:41.405 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:41.405 [T2] [FFT11] sampHz=11025 n=2048
+11:14:41.405 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:41.405 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:41.405 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:41.405 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:41.693 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:41.694 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:41.694 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:41.723 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:41.724 [T2] [FFT11] sampHz=11025 n=2048
+11:14:41.724 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -28
+11:14:41.724 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:41.724 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:41.753 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:41.919 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:41.949 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:41.949 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:41.949 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:41.949 [T2] [FFT11] sampHz=11025 n=2048
+11:14:41.949 [T2] [FFT11] preview shorts: 30, -17, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:41.949 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:41.949 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:41.950 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:42.102 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:42.144 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:42.149 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:42.149 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:42.149 [T2] [FFT11] sampHz=11025 n=2048
+11:14:42.149 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:42.149 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:42.149 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:42.188 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:42.249 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:42.250 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:42.250 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:42.279 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:42.279 [T2] [FFT11] sampHz=11025 n=2048
+11:14:42.279 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:14:42.279 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:42.279 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:42.279 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:42.415 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:42.444 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:42.444 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:42.445 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:42.445 [T2] [FFT11] sampHz=11025 n=2048
+11:14:42.446 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:42.446 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:42.446 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:42.476 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:42.642 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:42.671 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:42.671 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:42.672 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:42.672 [T2] [FFT11] sampHz=11025 n=2048
+11:14:42.672 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:42.672 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:42.672 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:42.701 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:42.884 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:42.913 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:42.913 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:42.913 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:42.913 [T2] [FFT11] sampHz=11025 n=2048
+11:14:42.914 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:42.914 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:42.914 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:42.942 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:43.605 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:43.634 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:43.634 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:43.634 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:43.634 [T2] [FFT11] sampHz=11025 n=2048
+11:14:43.634 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:43.634 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:43.634 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:43.635 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:43.696 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:43.726 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:43.726 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:43.726 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:43.726 [T2] [FFT11] sampHz=11025 n=2048
+11:14:43.726 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:43.726 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:43.799 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:43.892 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:43.920 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:43.921 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:43.921 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:43.921 [T2] [FFT11] sampHz=11025 n=2048
+11:14:43.951 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:43.951 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:43.951 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:43.951 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:44.074 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:44.075 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:44.075 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:44.075 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:44.075 [T2] [FFT11] sampHz=11025 n=2048
+11:14:44.075 [T2] [FFT11] preview shorts: 30, -17, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -27
+11:14:44.103 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:44.103 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:44.104 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:44.285 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:44.286 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:44.286 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:44.286 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:44.286 [T2] [FFT11] sampHz=11025 n=2048
+11:14:44.331 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -23
+11:14:44.332 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:44.332 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:44.375 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:44.511 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:44.539 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:44.539 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:44.539 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:44.539 [T2] [FFT11] sampHz=11025 n=2048
+11:14:44.539 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:44.539 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:44.539 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:44.540 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:45.370 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:45.370 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:45.399 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:45.399 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:45.399 [T2] [FFT11] sampHz=11025 n=2048
+11:14:45.399 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -28
+11:14:45.399 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:45.399 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:45.402 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:45.476 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:45.506 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:45.508 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:45.508 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:45.508 [T2] [FFT11] sampHz=11025 n=2048
+11:14:45.508 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:14:45.508 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:45.508 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:45.508 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:45.823 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:45.824 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:45.854 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:45.855 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:45.855 [T2] [FFT11] sampHz=11025 n=2048
+11:14:45.855 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -25
+11:14:45.855 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:45.884 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:45.885 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:45.917 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:45.992 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:45.993 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:45.993 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:46.021 [T2] [FFT11] sampHz=11025 n=2048
+11:14:46.021 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:46.021 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:46.021 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:46.113 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:46.113 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:46.113 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:46.113 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:46.114 [T2] [FFT11] sampHz=11025 n=2048
+11:14:46.114 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -27
+11:14:46.114 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:46.114 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:46.114 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:46.309 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:46.309 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:46.309 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:46.309 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:46.310 [T2] [FFT11] sampHz=11025 n=2048
+11:14:46.310 [T2] [FFT11] preview shorts: 30, -17, -31, -31, -31, -31, -31, -31, -31, -31, -30, -30, -30, -31, -31, -25
+11:14:46.310 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:46.310 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:46.338 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:46.702 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:46.704 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:46.704 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:46.732 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:46.732 [T2] [FFT11] sampHz=11025 n=2048
+11:14:46.732 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -25
+11:14:46.732 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:46.732 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:46.732 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:46.960 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:46.960 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:46.960 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:46.960 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:46.960 [T2] [FFT11] sampHz=11025 n=2048
+11:14:46.960 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:46.960 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:46.960 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:46.960 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:47.246 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:47.246 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:47.246 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:47.247 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:47.247 [T2] [FFT11] sampHz=11025 n=2048
+11:14:47.247 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:47.247 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:47.247 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:47.277 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:47.369 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:47.369 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:47.369 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:47.369 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:47.369 [T2] [FFT11] sampHz=11025 n=2048
+11:14:47.370 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:47.370 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:47.370 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:47.397 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:47.595 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:47.596 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:47.596 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:47.626 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:47.626 [T2] [FFT11] sampHz=11025 n=2048
+11:14:47.626 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:47.626 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:47.626 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:47.655 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:47.807 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:47.807 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:47.807 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:47.807 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:47.807 [T2] [FFT11] sampHz=11025 n=2048
+11:14:47.808 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:47.808 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:47.808 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:47.808 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:48.047 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:48.048 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:48.048 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:48.048 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:48.048 [T2] [FFT11] sampHz=11025 n=2048
+11:14:48.048 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:48.076 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:48.076 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:48.077 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:48.137 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:48.137 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:48.137 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:48.138 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:48.138 [T2] [FFT11] sampHz=11025 n=2048
+11:14:48.138 [T2] [FFT11] preview shorts: 30, -17, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:48.139 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:48.139 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:48.182 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:48.350 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:48.350 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:48.377 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:48.378 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:48.378 [T2] [FFT11] sampHz=11025 n=2048
+11:14:48.378 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:14:48.378 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:48.378 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:48.379 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:48.602 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:48.602 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:48.602 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:48.602 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:48.602 [T2] [FFT11] sampHz=11025 n=2048
+11:14:48.602 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:48.602 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:48.602 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:48.603 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:48.770 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:48.770 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:48.799 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:48.799 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:48.799 [T2] [FFT11] sampHz=11025 n=2048
+11:14:48.799 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:48.799 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:48.799 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:48.800 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:49.088 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:49.088 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:49.088 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:49.088 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:49.088 [T2] [FFT11] sampHz=11025 n=2048
+11:14:49.088 [T2] [FFT11] preview shorts: 30, -17, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:49.088 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:49.088 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:49.088 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:49.146 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:49.146 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:49.146 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:49.147 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:49.147 [T2] [FFT11] sampHz=11025 n=2048
+11:14:49.147 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:49.147 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:49.147 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:49.148 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:49.451 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:49.451 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:49.451 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:49.451 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:49.451 [T2] [FFT11] sampHz=11025 n=2048
+11:14:49.451 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:49.451 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:49.451 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:49.451 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:49.570 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:49.581 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:49.581 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:49.581 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:49.581 [T2] [FFT11] sampHz=11025 n=2048
+11:14:49.582 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:49.582 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:49.582 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:49.583 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:49.825 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:49.856 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:49.856 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:49.856 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:49.856 [T2] [FFT11] sampHz=11025 n=2048
+11:14:49.886 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:49.886 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:49.886 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:49.916 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:49.992 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:49.992 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:49.992 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:49.992 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:49.992 [T2] [FFT11] sampHz=11025 n=2048
+11:14:50.021 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:50.021 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:50.021 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:50.021 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:50.309 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:50.310 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:50.310 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:50.310 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:50.337 [T2] [FFT11] sampHz=11025 n=2048
+11:14:50.337 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:50.337 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:50.337 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:50.338 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:50.369 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:50.370 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:50.370 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:50.414 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:50.414 [T2] [FFT11] sampHz=11025 n=2048
+11:14:50.414 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:50.414 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:50.414 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:50.581 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:50.610 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:50.611 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:50.611 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:50.611 [T2] [FFT11] sampHz=11025 n=2048
+11:14:50.611 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:50.611 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:50.611 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:50.641 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:50.884 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:50.885 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:50.885 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:50.885 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:50.885 [T2] [FFT11] sampHz=11025 n=2048
+11:14:50.885 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:50.885 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:50.885 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:50.885 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:51.021 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:51.049 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:51.049 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:51.049 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:51.049 [T2] [FFT11] sampHz=11025 n=2048
+11:14:51.049 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:14:51.079 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:51.079 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:51.081 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:51.214 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:51.244 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:51.244 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:51.244 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:51.244 [T2] [FFT11] sampHz=11025 n=2048
+11:14:51.273 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:51.273 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:51.273 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:51.274 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:51.532 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:51.532 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:51.532 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:51.575 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:51.575 [T2] [FFT11] sampHz=11025 n=2048
+11:14:51.575 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:51.575 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:51.575 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:51.575 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:51.636 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:51.636 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:51.636 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:51.636 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:51.636 [T2] [FFT11] sampHz=11025 n=2048
+11:14:51.636 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -28
+11:14:51.636 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:51.636 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:51.969 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:51.971 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:51.971 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:51.998 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:51.998 [T2] [FFT11] sampHz=11025 n=2048
+11:14:51.998 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -28
+11:14:51.998 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:51.998 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:51.998 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:52.043 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:52.210 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:52.210 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:52.210 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:52.210 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:52.210 [T2] [FFT11] sampHz=11025 n=2048
+11:14:52.240 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30, -30, -31, -29, -27
+11:14:52.240 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:52.240 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:52.240 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:52.468 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:52.468 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:52.469 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:52.469 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:52.469 [T2] [FFT11] sampHz=11025 n=2048
+11:14:52.469 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:52.469 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:52.469 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:52.505 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:52.665 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:52.665 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:52.665 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:52.665 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:52.665 [T2] [FFT11] sampHz=11025 n=2048
+11:14:52.697 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:14:52.726 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:52.726 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:52.726 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:53.376 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:53.405 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:53.405 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:53.405 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:53.405 [T2] [FFT11] sampHz=11025 n=2048
+11:14:53.405 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -27
+11:14:53.405 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:53.405 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:53.406 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:53.436 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:53.795 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:53.795 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:53.795 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:53.795 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:53.795 [T2] [FFT11] sampHz=11025 n=2048
+11:14:53.796 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30, -30, -30
+11:14:53.796 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:53.796 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:53.796 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:53.870 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:54.203 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:54.203 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:54.233 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:54.233 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:54.233 [T2] [FFT11] sampHz=11025 n=2048
+11:14:54.233 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:14:54.233 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:54.233 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:54.237 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:54.565 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:54.565 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:54.565 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:54.597 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:54.597 [T2] [FFT11] sampHz=11025 n=2048
+11:14:54.597 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30, -31, -31, -29
+11:14:54.597 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:54.597 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:54.603 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:54.639 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:54.670 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:54.670 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:54.672 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:54.673 [T2] [FFT11] sampHz=11025 n=2048
+11:14:54.673 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30, -30
+11:14:54.673 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:54.673 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:54.714 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:54.897 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:54.897 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:54.897 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:54.897 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:54.897 [T2] [FFT11] sampHz=11025 n=2048
+11:14:54.925 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:54.925 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:54.925 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:54.926 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:55.047 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:55.077 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:55.077 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:55.077 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:55.077 [T2] [FFT11] sampHz=11025 n=2048
+11:14:55.077 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:55.077 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:55.077 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:55.078 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:55.831 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:55.831 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:55.831 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:55.831 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:55.831 [T2] [FFT11] sampHz=11025 n=2048
+11:14:55.831 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30, -31, -27
+11:14:55.831 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:55.832 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:55.832 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:55.891 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:56.207 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:56.207 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:56.237 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:56.237 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:56.237 [T2] [FFT11] sampHz=11025 n=2048
+11:14:56.239 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -26
+11:14:56.239 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:56.239 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:56.239 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:56.313 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:56.313 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:56.313 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:56.313 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:56.313 [T2] [FFT11] sampHz=11025 n=2048
+11:14:56.343 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:14:56.343 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:56.343 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:56.476 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:56.477 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:56.477 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:56.477 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:56.507 [T2] [FFT11] sampHz=11025 n=2048
+11:14:56.507 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:56.507 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:56.507 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:56.536 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:56.657 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:56.658 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:56.658 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:56.658 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:56.658 [T2] [FFT11] sampHz=11025 n=2048
+11:14:56.658 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -28
+11:14:56.658 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:56.658 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:56.658 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:56.886 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:56.886 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:56.887 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:56.887 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:56.887 [T2] [FFT11] sampHz=11025 n=2048
+11:14:56.887 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -28
+11:14:56.887 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:56.887 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:56.927 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:57.115 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:57.115 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:57.115 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:57.152 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:57.152 [T2] [FFT11] sampHz=11025 n=2048
+11:14:57.152 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:57.152 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:57.152 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:57.152 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:57.276 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:57.276 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:57.276 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:57.318 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:57.318 [T2] [FFT11] sampHz=11025 n=2048
+11:14:57.318 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:57.318 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:57.318 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:57.320 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:57.964 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:57.964 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:57.964 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:57.964 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:57.964 [T2] [FFT11] sampHz=11025 n=2048
+11:14:57.964 [T2] [FFT11] preview shorts: 30, -17, -31, -31, -31, -30, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:14:57.964 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:57.964 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:57.965 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:58.056 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:58.056 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:58.085 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:58.085 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:58.085 [T2] [FFT11] sampHz=11025 n=2048
+11:14:58.085 [T2] [FFT11] preview shorts: 30, -13, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -25
+11:14:58.085 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:58.085 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:58.086 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:58.341 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:58.341 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:58.341 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:58.341 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:58.341 [T2] [FFT11] sampHz=11025 n=2048
+11:14:58.341 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:14:58.341 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:58.341 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:58.341 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:58.613 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:58.614 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:58.614 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:58.616 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:58.616 [T2] [FFT11] sampHz=11025 n=2048
+11:14:58.616 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:14:58.616 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:58.616 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:58.616 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:58.765 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:58.765 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:58.765 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:58.765 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:58.765 [T2] [FFT11] sampHz=11025 n=2048
+11:14:58.765 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:14:58.765 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:58.765 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:58.766 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:59.112 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:59.112 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:59.112 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:59.112 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:59.112 [T2] [FFT11] sampHz=11025 n=2048
+11:14:59.142 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:59.142 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:59.142 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:59.143 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:59.171 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:59.307 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:59.307 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:59.307 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:59.307 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:59.307 [T2] [FFT11] sampHz=11025 n=2048
+11:14:59.308 [T2] [FFT11] preview shorts: 30, -17, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30, -30, -30, -29
+11:14:59.308 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:59.308 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:59.308 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:59.532 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:14:59.533 [T2] axXMMR1_OnNotifyFFT form control event
+11:14:59.533 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:14:59.576 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:14:59.576 [T2] [FFT11] sampHz=11025 n=2048
+11:14:59.577 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:14:59.577 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:14:59.577 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:14:59.577 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:00.212 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:00.212 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:00.212 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:00.212 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:00.212 [T2] [FFT11] sampHz=11025 n=2048
+11:15:00.212 [T2] [FFT11] preview shorts: 30, -17, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:15:00.212 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:00.212 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:00.212 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:00.468 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:00.468 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:00.468 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:00.468 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:00.468 [T2] [FFT11] sampHz=11025 n=2048
+11:15:00.468 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:15:00.468 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:00.468 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:00.468 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:00.544 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:00.544 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:00.544 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:00.544 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:00.545 [T2] [FFT11] sampHz=11025 n=2048
+11:15:00.545 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:15:00.545 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:00.545 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:00.545 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:00.939 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:00.939 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:00.939 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:00.981 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:00.981 [T2] [FFT11] sampHz=11025 n=2048
+11:15:00.981 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:15:00.981 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:00.981 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:00.981 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:01.146 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:01.146 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:01.146 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:01.146 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:01.146 [T2] [FFT11] sampHz=11025 n=2048
+11:15:01.146 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:15:01.146 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:01.147 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:01.147 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:01.341 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:01.371 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:01.373 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:01.373 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:01.373 [T2] [FFT11] sampHz=11025 n=2048
+11:15:01.373 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:15:01.373 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:01.373 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:01.400 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:01.596 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:01.596 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:01.596 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:01.596 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:01.596 [T2] [FFT11] sampHz=11025 n=2048
+11:15:01.596 [T2] [FFT11] preview shorts: 30, -17, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:15:01.596 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:01.596 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:01.626 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:01.898 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:01.899 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:01.899 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:01.899 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:01.899 [T2] [FFT11] sampHz=11025 n=2048
+11:15:01.927 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30, -31
+11:15:01.927 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:01.927 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:01.927 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:01.959 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:01.960 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:01.960 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:01.960 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:01.960 [T2] [FFT11] sampHz=11025 n=2048
+11:15:01.960 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -27
+11:15:01.960 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:01.960 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:02.141 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:02.185 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:02.185 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:02.185 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:02.185 [T2] [FFT11] sampHz=11025 n=2048
+11:15:02.185 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:15:02.185 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:02.185 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:02.186 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:02.335 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:02.335 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:02.335 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:02.335 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:02.335 [T2] [FFT11] sampHz=11025 n=2048
+11:15:02.336 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:15:02.336 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:02.336 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:02.336 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:02.698 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:02.699 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:02.700 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:02.700 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:02.700 [T2] [FFT11] sampHz=11025 n=2048
+11:15:02.729 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:15:02.729 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:02.729 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:02.729 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:02.760 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:02.760 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:02.760 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:02.760 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:02.760 [T2] [FFT11] sampHz=11025 n=2048
+11:15:02.791 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:15:02.791 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:02.791 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:03.105 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:03.107 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:03.107 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:03.107 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:03.107 [T2] [FFT11] sampHz=11025 n=2048
+11:15:03.107 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:15:03.107 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:03.107 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:03.107 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:03.181 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:03.210 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:03.210 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:03.211 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:03.211 [T2] [FFT11] sampHz=11025 n=2048
+11:15:03.211 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:15:03.211 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:03.211 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:03.211 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:03.363 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:03.364 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:03.364 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:03.364 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:03.364 [T2] [FFT11] sampHz=11025 n=2048
+11:15:03.364 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30, -30
+11:15:03.364 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:03.364 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:03.406 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:04.046 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:04.046 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:04.047 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:04.047 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:04.047 [T2] [FFT11] sampHz=11025 n=2048
+11:15:04.047 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -28
+11:15:04.047 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:04.047 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:04.047 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:04.243 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:04.244 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:04.244 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:04.244 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:04.244 [T2] [FFT11] sampHz=11025 n=2048
+11:15:04.244 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:15:04.244 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:04.244 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:04.273 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:04.380 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:04.380 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:04.380 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:04.408 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:04.409 [T2] [FFT11] sampHz=11025 n=2048
+11:15:04.409 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:15:04.409 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:04.409 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:04.409 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:04.699 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:04.729 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:04.729 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:04.729 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:04.729 [T2] [FFT11] sampHz=11025 n=2048
+11:15:04.729 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -28
+11:15:04.759 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:04.759 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:04.760 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:04.820 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:04.820 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:04.820 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:04.849 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:04.849 [T2] [FFT11] sampHz=11025 n=2048
+11:15:04.849 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30, -31, -31
+11:15:04.849 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:04.849 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:05.105 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:05.106 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:05.106 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:05.106 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:05.106 [T2] [FFT11] sampHz=11025 n=2048
+11:15:05.106 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:15:05.106 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:05.106 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:05.135 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:05.984 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:05.985 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:05.985 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:05.985 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:05.985 [T2] [FFT11] sampHz=11025 n=2048
+11:15:05.985 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30, -31
+11:15:05.985 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:05.985 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:05.985 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:06.013 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:06.228 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:06.228 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:06.258 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:06.258 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:06.258 [T2] [FFT11] sampHz=11025 n=2048
+11:15:06.258 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:15:06.258 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:06.258 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:06.258 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:06.529 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:06.530 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:06.531 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:06.531 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:06.531 [T2] [FFT11] sampHz=11025 n=2048
+11:15:06.531 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:15:06.531 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:06.576 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:06.604 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:06.635 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:06.635 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:06.635 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:06.635 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:06.635 [T2] [FFT11] sampHz=11025 n=2048
+11:15:06.636 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -28
+11:15:06.636 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:06.636 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:06.636 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:06.799 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:06.799 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:06.799 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:06.799 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:06.799 [T2] [FFT11] sampHz=11025 n=2048
+11:15:06.828 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -26
+11:15:06.828 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:06.828 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:06.828 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:07.041 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:07.041 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:07.041 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:07.070 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:07.070 [T2] [FFT11] sampHz=11025 n=2048
+11:15:07.070 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:15:07.070 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:07.070 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:07.070 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:07.239 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:07.269 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:07.269 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:07.269 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:07.269 [T2] [FFT11] sampHz=11025 n=2048
+11:15:07.269 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:15:07.269 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:07.269 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:07.269 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:07.451 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:07.451 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:07.451 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:07.451 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:07.451 [T2] [FFT11] sampHz=11025 n=2048
+11:15:07.451 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:15:07.451 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:07.451 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:07.451 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:07.676 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:07.705 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:07.705 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:07.705 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:07.705 [T2] [FFT11] sampHz=11025 n=2048
+11:15:07.705 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:15:07.705 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:07.705 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:07.705 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:07.886 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:07.886 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:07.886 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:07.886 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:07.886 [T2] [FFT11] sampHz=11025 n=2048
+11:15:07.886 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30, -27
+11:15:07.886 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:07.886 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:07.887 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:08.097 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:08.097 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:08.097 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:08.097 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:08.097 [T2] [FFT11] sampHz=11025 n=2048
+11:15:08.097 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -28
+11:15:08.097 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:08.097 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:08.098 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:08.310 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:08.310 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:08.310 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:08.310 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:08.310 [T2] [FFT11] sampHz=11025 n=2048
+11:15:08.310 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:15:08.310 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:08.310 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:08.310 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:08.435 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:08.476 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:08.478 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:08.478 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:08.478 [T2] [FFT11] sampHz=11025 n=2048
+11:15:08.478 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:15:08.478 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:08.478 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:08.520 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:08.808 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:08.808 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:08.811 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:08.811 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:08.811 [T2] [FFT11] sampHz=11025 n=2048
+11:15:08.811 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -30, -31, -31, -31, -30, -29
+11:15:08.811 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:08.811 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:08.852 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:08.852 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:08.852 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:08.852 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:08.852 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:08.852 [T2] [FFT11] sampHz=11025 n=2048
+11:15:08.852 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:15:08.852 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:08.852 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:08.852 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:09.079 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:09.079 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:09.079 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:09.107 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:09.107 [T2] [FFT11] sampHz=11025 n=2048
+11:15:09.107 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -22
+11:15:09.107 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:09.107 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:09.107 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:09.393 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:09.393 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:09.394 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:09.394 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:09.394 [T2] [FFT11] sampHz=11025 n=2048
+11:15:09.394 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:15:09.394 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:09.394 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:09.394 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:09.561 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:09.561 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:09.561 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:09.561 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:09.561 [T2] [FFT11] sampHz=11025 n=2048
+11:15:09.592 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:15:09.592 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:09.592 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:09.592 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:09.653 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:09.681 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:09.681 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:09.687 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:09.687 [T2] [FFT11] sampHz=11025 n=2048
+11:15:09.687 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -26
+11:15:09.687 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:09.687 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:09.687 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:09.850 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:09.878 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:09.879 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:09.879 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:09.879 [T2] [FFT11] sampHz=11025 n=2048
+11:15:09.879 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:15:09.879 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:09.879 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:09.879 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:10.106 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:10.106 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:10.106 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:10.135 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:10.135 [T2] [FFT11] sampHz=11025 n=2048
+11:15:10.135 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:15:10.135 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:10.135 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:10.135 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:10.365 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:10.365 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:10.365 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:10.394 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:10.394 [T2] [FFT11] sampHz=11025 n=2048
+11:15:10.394 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:15:10.394 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:10.394 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:10.394 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:10.543 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:10.543 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:10.543 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:10.544 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:10.544 [T2] [FFT11] sampHz=11025 n=2048
+11:15:10.544 [T2] [FFT11] preview shorts: 30, -17, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:15:10.544 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:10.544 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:10.544 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:11.006 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:11.044 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:11.046 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:11.046 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:11.046 [T2] [FFT11] sampHz=11025 n=2048
+11:15:11.046 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -28
+11:15:11.046 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:11.046 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:11.086 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:11.088 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:11.088 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:11.088 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:11.116 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:11.116 [T2] [FFT11] sampHz=11025 n=2048
+11:15:11.116 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:15:11.116 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:11.116 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:11.116 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:11.267 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:11.267 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:11.267 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:11.267 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:11.267 [T2] [FFT11] sampHz=11025 n=2048
+11:15:11.267 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30, -30
+11:15:11.267 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:11.267 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:11.267 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:11.476 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:11.476 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:11.476 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:11.477 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:11.477 [T2] [FFT11] sampHz=11025 n=2048
+11:15:11.477 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -27
+11:15:11.477 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:11.477 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:11.506 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:11.702 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:11.702 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:11.702 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:11.702 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:11.702 [T2] [FFT11] sampHz=11025 n=2048
+11:15:11.702 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:15:11.702 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:11.702 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:11.703 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:11.898 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:11.898 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:11.898 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:11.898 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:11.898 [T2] [FFT11] sampHz=11025 n=2048
+11:15:11.927 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:15:11.927 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:11.927 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:11.928 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:12.078 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:12.078 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:12.078 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:12.078 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:12.078 [T2] [FFT11] sampHz=11025 n=2048
+11:15:12.078 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -26
+11:15:12.078 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:12.078 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:12.078 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:12.306 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:12.349 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:12.349 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:12.351 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:12.351 [T2] [FFT11] sampHz=11025 n=2048
+11:15:12.351 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30, -30
+11:15:12.351 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:12.351 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:12.380 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:12.490 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:12.531 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:12.531 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:12.531 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:12.531 [T2] [FFT11] sampHz=11025 n=2048
+11:15:12.531 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:15:12.532 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:12.532 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:12.532 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:12.758 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:12.758 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:12.758 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:12.758 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:12.758 [T2] [FFT11] sampHz=11025 n=2048
+11:15:12.758 [T2] [FFT11] preview shorts: 30, -17, -31, -31, -30, -30, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31
+11:15:12.758 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:12.758 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:12.759 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:12.895 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:12.895 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:12.895 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:12.895 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:12.895 [T2] [FFT11] sampHz=11025 n=2048
+11:15:12.895 [T2] [FFT11] preview shorts: 30, -15, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30, -30
+11:15:12.895 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:12.895 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:12.926 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:13.167 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:13.167 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:13.167 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:13.167 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:13.167 [T2] [FFT11] sampHz=11025 n=2048
+11:15:13.167 [T2] [FFT11] preview shorts: 30, -17, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -30
+11:15:13.167 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:13.167 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:13.167 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:13.407 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:13.407 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:13.407 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:13.407 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:13.407 [T2] [FFT11] sampHz=11025 n=2048
+11:15:13.407 [T2] [FFT11] preview shorts: 30, -14, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -28
+11:15:13.407 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:13.407 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:13.407 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:13.503 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:13.503 [T2] axXMMR1_OnNotifyFFT form control event
+11:15:13.503 [[Sink] Invoke dispid=11 cArgs=3] T2 Apt=STA IsThreadPool=False
+11:15:13.544 [T2] [FFT11] vt samp=0x0002 (base=0x2) size=0x0002 (base=0x2) fft=0x4002 (base=0x2 BYREF)
+11:15:13.544 [T2] [FFT11] sampHz=11025 n=2048
+11:15:13.544 [T2] [FFT11] preview shorts: 30, -16, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -31, -29
+11:15:13.544 [T2] call NotifyFftManaged?.Invoke(fft, size, sampfreq)
+11:15:13.544 [[[OnNotifyFftManaged no action]]] T2 Apt=STA IsThreadPool=False
+11:15:13.544 [[Sink] Invoke dispid=12 cArgs=1] T2 Apt=STA IsThreadPool=False
+11:15:13.695 [[Sink] Invoke dispid=5 cArgs=1] T2 Apt=STA IsThreadPool=False
