@@ -1,9 +1,9 @@
 # MMTTY_XMMT_OCX_VB6_Csharp_Interop
-MMTTY XMMT.OCX VB6 -> C# Interop demonstrates Spectrum control updates from MMTTY and method to connect old VB6 ActiveX that have unsupported (unsafe) data types to modern .NET GUI environments.
+MMTTY XMMT.OCX VB6 -> C# Interop demonstrates Spectrum control updates from MMTTY via its XMMT.ocx. This old VB6 style ocx only partially works with interop because of "unsafe" data usage. The code here shows how to connect those non-working events and calls to the modern .NET GUI environment.
 
-Implementation uses the Interop controls together with the special interface where requierd for incompatible data interfaces. The majority of the XMMT controls are Interop compatible so making further app deveopment easier.
+Implementation allows use of the ocx controls via interop so these can easily be added to the GUI directly by the IDE. Where needed the special dispatch code is used to handle otherwise incompatible data interfaces. The majority of the XMMT control features are Interop compatible so making further app deveopment easier.
 
-Project developed on VS2026 IDE with the help of Gemini & ChatGPT AI
+Project developed on the VS2026 IDE with the help of Gemini & ChatGPT AI
 
 See /XMMTwrapper1/XMMT_OCX_VB6_C#_Interop.md for outline of issues and solutions found.
 
