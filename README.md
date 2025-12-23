@@ -6,3 +6,5 @@ Implementation uses the Interop controls together with the special interface whe
 Project developed on VS2026 IDE with the help of Gemini & ChatGPT AI
 
 See /XMMTwrapper1/XMMT_OCX_VB6_C#_Interop.md for outline of issues and solutions found.
+
+MMTTY is the go-to ham radio RTTY application. Find it here http://hamsoft.ca/pages/mmtty.php. This program requires that MMTTY is installed and the path to the installation is currently hard-coded, so adjust that to suit. Also its associated XMMT.ocx needs to be registered. The ocx gives good access to MMTTY functionality and hence is a good vehicle for development of custom RTTY applications.
