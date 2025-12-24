@@ -73,6 +73,7 @@
             axXMMR1.TabIndex = 11;
             axXMMR1.OnConnected += axXMMR1_OnConnected_1;
             axXMMR1.OnNotifyFFT += axXMMR1_OnNotifyFFT;
+            axXMMR1.OnNotifyXY += axXMMR1_OnNotifyXY;
             // 
             // axXMMSpec1
             // 

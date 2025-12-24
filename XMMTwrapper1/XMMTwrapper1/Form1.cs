@@ -64,7 +64,7 @@ namespace XMMTwrapper1
 
             _hook = new XmmrRawEventHook(axXMMR1);
             _hook.OnNotifyFftRaw += OnNotifyFftRaw;
-            _hook.OnNotifyFftManaged += OnNotifyFftManaged;
+            _hook.OnNotifyGetXY += OnNotifyGetXY;
             _hook.AcceptFft = false;      // ignore early noise
             _hook.Advise();
 
@@ -91,50 +91,33 @@ namespace XMMTwrapper1
             //ShowStatus();
         }
 
-        private readonly short[] _fftNorm = new short[2048]; // reuse to avoid allocations
-
-        private void OnNotifyFftManaged(short[] fftRaw, short size, short sampfreq)
+        // [id(0x00000007)]  XY.Draw(long* pXY);
+        private void OnNotifyGetXY(int[] XY)
         {
-            Log.LogThreadDetails("[[OnNotifyFftManaged no action]]");
+            //Log.LogThreadDetails("[[OnNotifyGetXY no action]]");
 
-            //unsafe { TestRamp(); }
+            IntPtr pXY = AllocXYBuffer(XY);
+            try
+            {
+                XMMSpecComDrawDispatch.InvokeSendIntArray(axxmmxy1.GetOcx(), pXY, 0x00000007 /* XY.Draw */);
+            }
+            finally
+            {
+                Marshal.FreeHGlobal(pXY);
+            }
+
             return;
 
-            int n = size;
-            if (n <= 0) return;
-            if (n > _fftNorm.Length) n = _fftNorm.Length;
+        }
 
-            short min = short.MaxValue, max = short.MinValue;
+        private static IntPtr AllocXYBuffer(int[] xy1024)
+        {
+            if (xy1024 is null) throw new ArgumentNullException(nameof(xy1024));
+            if (xy1024.Length != 1024) throw new ArgumentException("Must be 1024 elements.");
 
-            // Normalize: interpret each short as an unsigned byte magnitude (0..255)
-            for (int i = 0; i < n; i++)
-            {
-                int v = fftRaw[i];
-                if (v < 0) v += 256;          // same as (fftRaw[i] & 0xFF)
-                _fftNorm[i] = (short)v;
-
-                if (_fftNorm[i] < min) min = _fftNorm[i];
-                if (_fftNorm[i] > max) max = _fftNorm[i];
-            }
-
-            Log.Mark($"[SpecDraw] n={n} samp={sampfreq} normRange=[{min},{max}] " +
-                     $"preview={_fftNorm[0]},{_fftNorm[1]},{_fftNorm[2]},{_fftNorm[3]}");
-
-            // after normalization
-            int zeros = 0;
-            for (int i = 0; i < n; i++) if (_fftNorm[i] == 0) zeros++;
-            Log.Mark($"[SpecDraw] zeros={zeros}/{n}");
-
-
-            // UI thread only (you said you’re already on T2 STA, but keep the pattern)
-            if (InvokeRequired)
-            {
-                BeginInvoke(new Action(() => axXMMSpec1.Draw(ref _fftNorm[0], (short)n, sampfreq)));
-            }
-            else
-            {
-                axXMMSpec1.Draw(ref _fftNorm[0], (short)n, sampfreq);
-            }
+            IntPtr p = Marshal.AllocHGlobal(1024 * sizeof(int));
+            Marshal.Copy(xy1024, 0, p, 1024);
+            return p;
         }
 
 
@@ -156,12 +139,24 @@ namespace XMMTwrapper1
             try
             {
                 IntPtr pFirst = handle.AddrOfPinnedObject(); // points to fftRaw[0] as short*
+                //send data to Spectrum control
                 XMMSpecComDrawDispatch.InvokeSpecDraw(
                     axXMMSpec1.GetOcx(),   // you can also try axXMMSpec1 itself if needed
                     pFirst,
                     (short)n,
-                    sampfreq
+                    sampfreq,
+                    XMMSpecComDrawDispatch.DISPID_SpecDraw
                 );
+
+                //do same for waterfall
+                XMMSpecComDrawDispatch.InvokeSpecDraw(
+                    axxmmWater1.GetOcx(),   // you can also try axxmmWater1 itself if needed
+                    pFirst,
+                    (short)n,
+                    sampfreq,
+                    XMMSpecComDrawDispatch.DISPID_WaterfallDraw
+                );
+
             }
             finally
             {
@@ -377,6 +372,12 @@ namespace XMMTwrapper1
         private void axxmmxy1_OnLButtonClick(object sender, _DXMMXYEvents_OnLButtonClickEvent e)
         {
 
+        }
+
+        private void axXMMR1_OnNotifyXY(object sender, _DXMMREvents_OnNotifyXYEvent e)
+        {
+            // TODO This doesnt work for same reasons 
+            //axxmmxy1.Draw(ref e.pXY);
         }
     }
 }

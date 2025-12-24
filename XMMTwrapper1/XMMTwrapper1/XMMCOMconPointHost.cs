@@ -27,10 +27,10 @@ public sealed class XmmrRawEventHook : IDisposable
         remove => _sink.NotifyFftRaw -= value;
     }
 
-    public event Action<short[], short, short>? OnNotifyFftManaged
+    public event Action<int[]>? OnNotifyGetXY
     {
-        add => _sink.NotifyFftManaged += value;
-        remove => _sink.NotifyFftManaged -= value;
+        add => _sink.NotifyGetXY += value;
+        remove => _sink.NotifyGetXY -= value;
     }
 
     public bool AcceptFft

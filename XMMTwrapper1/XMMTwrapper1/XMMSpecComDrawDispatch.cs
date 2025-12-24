@@ -6,10 +6,13 @@ internal static class XMMSpecComDrawDispatch
 {
     // VARTYPE (use ushort to avoid sign/convert headaches)
     private const ushort VT_I2 = 2;
+    public const ushort VT_I4 = 0x0003;
     private const ushort VT_BYREF = 0x4000;
 
     // Replace if your actual DISPID differs
+    // See file XMMT_OCX_IDL_INTERFACE_DEFS.txt for all DISPIDs
     public const int DISPID_SpecDraw = 14;
+    public const int DISPID_WaterfallDraw = 6;
 
     // Invoke flags
     private const ushort DISPATCH_METHOD = 0x1;
@@ -60,7 +63,7 @@ internal static class XMMSpecComDrawDispatch
     /// Calls Spectrum.Draw(pFFT As Integer(ByRef), size As Integer, sampfreq As Integer) where VB6 Integer = Int16.
     /// Expects pFftShorts to be a pointer to the first short sample (short*), pinned for the duration of the call.
     /// </summary>
-    public static void InvokeSpecDraw(object ocx, IntPtr pFftShorts, short size, short sampHz)
+    public static void InvokeSpecDraw(object ocx, IntPtr pFftShorts, short size, short sampHz, int DISPID)
     {
         if (ocx is null) throw new ArgumentNullException(nameof(ocx));
         if (pFftShorts == IntPtr.Zero) throw new ArgumentNullException(nameof(pFftShorts));
@@ -96,7 +99,7 @@ internal static class XMMSpecComDrawDispatch
             uint argErr;
 
             int hr = disp.Invoke(
-                DISPID_SpecDraw,
+                DISPID,
                 ref iidNull,
                 lcid: 0,                 // LOCALE_USER_DEFAULT also fine; 0 usually OK
                 wFlags: DISPATCH_METHOD,
@@ -116,4 +119,62 @@ internal static class XMMSpecComDrawDispatch
             Marshal.FreeHGlobal(pArgs);
         }
     }
+
+    public static void InvokeSendIntArray(object ocx, IntPtr pArray, int dispid)
+    {
+        if (ocx is null) throw new ArgumentNullException(nameof(ocx));
+        if (pArray == IntPtr.Zero) throw new ArgumentNullException(nameof(pArray));
+
+        var disp = (IDispatch)ocx;
+
+        // One argument: VT_I4 | VT_BYREF, pointing at LONG[1024]
+        VARIANT[] args = new VARIANT[1];
+        args[0] = new VARIANT
+        {
+            vt = (ushort)(VariantUtil.VT_I4 | VariantUtil.VT_BYREF),
+            byref = pArray
+        };
+
+        int cbVar = Marshal.SizeOf<VARIANT>();
+        IntPtr pArgs = Marshal.AllocHGlobal(cbVar * args.Length);
+
+        var dp = new DISPPARAMS
+        {
+            cArgs = args.Length,
+            cNamedArgs = 0,
+            rgdispidNamedArgs = IntPtr.Zero,
+            rgvarg = pArgs
+        };
+
+        try
+        {
+            // For IDispatch, args are stored in reverse order.
+            // With 1 arg, that's still just args[0].
+            Marshal.StructureToPtr(args[0], pArgs, fDeleteOld: false);
+
+            Guid iidNull = Guid.Empty;
+            uint argErr;
+
+            const ushort DISPATCH_METHOD = 0x0001;
+
+            int hr = disp.Invoke(
+                dispid,
+                ref iidNull,
+                lcid: 0,
+                wFlags: DISPATCH_METHOD,
+                ref dp,
+                pVarResult: IntPtr.Zero,
+                pExcepInfo: IntPtr.Zero,
+                out argErr);
+
+            if (hr != 0)
+                throw new COMException($"IDispatch.Invoke failed. hr=0x{hr:X8}, argErr={argErr}", hr);
+        }
+        finally
+        {
+            Marshal.FreeHGlobal(pArgs);
+        }
+    }
+
+
 }
