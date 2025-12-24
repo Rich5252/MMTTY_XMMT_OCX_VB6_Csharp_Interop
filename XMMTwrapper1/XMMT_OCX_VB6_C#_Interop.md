@@ -150,4 +150,10 @@ Fixing the VARIANT type and layout immediately resolved the issue.
 
 ---
 
+If you want, next time we can:
 
+* Strip this to a production-clean helper class
+* Add a small render throttle
+* Or help document the OCX interface itself so nobody ever has to rediscover this again 😉
+
+But for now — **mission accomplished** 🏆
